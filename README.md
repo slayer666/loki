@@ -6,10 +6,7 @@ and it is avalible on Google Code platform. Loki is a remake of CoryOS using gas
 arch dependent parts from the arch independent parts.
 
 Why it's called LOKI?
-cause it's       Little
-cause it's       Open
-cause it's micro Kernel based
-and it's         Inter-platform
+cause it's       Little, Open, microKernel based, and Inter-platform
 
 To do list:
 -improve tty driver
