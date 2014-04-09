@@ -1,6 +1,6 @@
 Welcome!
 
-Loki is recently a stub for an operating system based on microkernel, for many platforms and compatible with UNiX.
+Recently Loki is a stub for an operating system based on microkernel,intended to use on many platforms and compatible with UNiX.
 It's my second operating system project. My first big os project was called CoryOS. It was commited to Google Science Fair,
 and it is avalible on Google Code platform. Loki is a remake of CoryOS using gas instead of nasm, and also it has got isolated
 arch dependent parts from the arch independent parts.
@@ -52,4 +52,4 @@ If you are interested in joining to Loki project, email me: wojciech.rozowski@gm
 
 
 Greetings
-slayer666
+Wojciech Ró¿owski
