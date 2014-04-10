@@ -25,5 +25,6 @@
 #include <kernel/arch/i386/vga.h>
 #include <kernel/arch/i386/screen.h>
 #include <kernel/arch/i386/string.h>
+#include <kernel/arch/i386/io.h>
 #endif
 #endif
