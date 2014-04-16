@@ -20,7 +20,7 @@ BOOTDIR    :=/boot
 INCLUDEDIR :=$(PREFIX)/include
 
 LINKER     :=$(KRNARCHDIR)link.ld
-KRNOBJS    :=$(KRNARCHDIR)head.o kernel/kernel.o $(KRNARCHDIR)screen.o $(KRNARCHDIR)string.o kernel/kprintf.o
+KRNOBJS    :=$(KRNARCHDIR)head.o kernel/kernel.o $(KRNARCHDIR)screen.o $(KRNARCHDIR)string.o kernel/kprintf.o $(KRNARCHDIR)flush.o $(KRNARCHDIR)descriptor_tables.o
 #KLIBCOBJS  :=$(KLIBCDIR)stdio/printf.o $(KLIBCDIR)stdio/putchar.o $(KLIBCDIR)stdio/puts.o
 #KLIBCOBJS  :=$(KLIBCOBJS) $(KLIBCDIR)stdlib/abort.o $(KLIBCDIR)string/memcmp.o $(KLIBCDIR)string/memcpy.o $(KLIBCDIR)string/memmove.o $(KLIBCDIR)string/memset.o $(KLIBCDIR)string/strlen.o
 KRNFILE    :=$(DESTDIR)$(BOOTDIR)/kernel-$(ARCH).elf

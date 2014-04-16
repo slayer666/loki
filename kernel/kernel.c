@@ -28,6 +28,7 @@ void
 kernel_main (unsigned long magic, unsigned long addr)
 {	
 	multiboot_info_t *mbi;
+	init_descriptor_tables();
     cls ();
 
     /* Am I booted by a Multiboot-compliant boot loader? */
