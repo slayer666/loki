@@ -48,6 +48,7 @@ kernel: $(KRNOBJS) $(KLIBCOBJS) link
 	$(CC) $(CFLAGS) -c -o $*.o $<
 	
 link:
+	-@mkdir $(DESTDIR)$(BOOTDIR)
 	$(LD) -T $(LINKER) -o $(KRNFILE) $(LDFLAGS) $(KRNOBJS) $(KLIBCOBJS)
 	
 	
