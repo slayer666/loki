@@ -19,7 +19,8 @@
 	File: kernel/kprintf.c
 	Description: freestanding printf function
 */ 
-#include <kernel/arch.h>  
+#include <kernel/arch.h>
+#include <kernel/string.h>  
 void
 kprintf (const char *format, ...)
 {

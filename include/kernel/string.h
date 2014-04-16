@@ -16,14 +16,10 @@
  with this program; if not, write to the Free Software Foundation, Inc.,
  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 	
-	File: include/kernel/arch.h
-	Description: simple arch dependencies header's chooser
+	File: include/kernel/arch/i386/string.h
+	Description: freestanding string functions header
 */ 
-#ifndef _KERNEL_ARCH_H
-#define _KERNEL_ARCH_H
-#ifdef i386
-#include <kernel/arch/i386/vga.h>
-#include <kernel/arch/i386/screen.h>
-#include <kernel/arch/i386/io.h>
-#endif
+#ifndef _KERNEL_STRING_H
+#define _KERNEL_STRING_H
+void itoa (char *buf, int base, int d);
 #endif
